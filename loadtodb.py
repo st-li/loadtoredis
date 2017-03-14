@@ -1,5 +1,6 @@
 import redis
 import json
+import pandas as pd
 
 if __name__ == '__main__':
     conn = redis.Redis('127.0.0.1', 6379)
